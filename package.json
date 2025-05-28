@@ -1,15 +1,12 @@
 {
   "name": "refokus-web",
-  "homepage": "https://himanshu-aw.github.io/refokus-aw/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "framer-motion": "^11.5.4",
